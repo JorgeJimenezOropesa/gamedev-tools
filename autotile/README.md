@@ -1,21 +1,21 @@
 # Aseprite Autotile Generator
 
-Un plugin simple escrito en **Lua** para Aseprite que automatiza la generación de tilesets.
+A simple **Lua** plugin for Aseprite that automates tileset generation.
 
-A partir de un input mínimo de **3x2 tiles** (conteniendo las variaciones de esquinas y bordes, ver input.png), el script genera automáticamente un tileset completo de **47 tiles** listo para autotiling (blob bitmasking).
+From a minimal **3x2 tile input** (containing corner and edge variations, see input.png), the script automatically generates a full **47-tile** tileset ready for autotiling (blob bitmasking).
 
-## Instalación
+## Installation
 
-1. Abre Aseprite y ve a `File > Scripts > Open Scripts Folder`.
-2. Copia el archivo `autotile.lua` en esa carpeta.
-3. Refresca los scripts en Aseprite (`File > Scripts > Rescan Scripts Folder`).
+1. Open Aseprite and go to `File > Scripts > Open Scripts Folder`.
+2. Copy the `autotile.lua` file into that folder.
+3. Refresh the scripts in Aseprite (`File > Scripts > Rescan Scripts Folder`).
 
-## Cómo usarlo
+## How to use
 
-1. **Prepara el Input:**
-   * Crea un sprite cuyo tamaño sea **3 tiles de ancho x 2 tiles de alto**.
-   * Dibuja las piezas base (esquinas internas, externas y rellenos) siguiendo la distribución estándar (BL, BR, TL, TR).
-2. **Ejecuta el Script:**
-   * Ve a `File > Scripts > autotile`.
-3. **Resultado:**
-   * Se generará un nuevo sprite con el tileset completo expandido, preservando la paleta de colores original.
+1. **Prepare the Input:**
+   * Create a sprite with a size of **3 tiles wide x 2 tiles high**.
+   * Draw the base pieces (inner corners, outer corners, and fillers) following the standard layout (BL, BR, TL, TR).
+2. **Run the Script:**
+   * Go to `File > Scripts > autotile`.
+3. **Result:**
+   * A new sprite will be generated with the fully expanded tileset, preserving the original color palette.
