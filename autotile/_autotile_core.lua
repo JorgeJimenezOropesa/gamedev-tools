@@ -98,7 +98,7 @@ function core.run(export_directly)
     local path = sprite.filename
     local dir = fs.filePath(path)
     local name = fs.fileTitle(path)
-    local filename = fs.joinPath(dir, name .. "_tileset.png")
+    local filename = fs.joinPath(dir, name .. "_tilesheet.png")
 
     if export_directly then
         outSprite:saveCopyAs(filename)
