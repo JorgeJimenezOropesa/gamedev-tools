@@ -28,6 +28,16 @@ A small Lua plugin for Aseprite that expands a minimal 3x2 tiles input into a co
 
 The generated sprite preserves the original palette (if present).
 
+## Example
+
+For the input
+
+![Example input](assets/example_input_escaled.png)
+
+The following output is generated
+
+![Example output](assets/example_output_escaled.png)
+
 ## Notes
 
 - The core script relies on the scripts folder being in Aseprite's user config path, which is where you should place `_autotile_core.lua`.
