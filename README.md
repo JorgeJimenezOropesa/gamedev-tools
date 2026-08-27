@@ -1,3 +1,5 @@
+![Example input](assets/title.png)
+
 # Aseprite Autotile Generator
 
 A small Lua plugin for Aseprite that expands a minimal 3x2 tiles input into a complete 47-tile autotile tileset (suitable for blob bitmasking).
@@ -32,11 +34,11 @@ The generated sprite preserves the original palette (if present).
 
 For the input
 
-![Example input](assets/example_input_escaled.png)
+![Example input](assets/example_input_scaled.png)
 
 The following output is generated
 
-![Example output](assets/example_output_escaled.png)
+![Example output](assets/example_output_scaled.png)
 
 ## Notes
 
